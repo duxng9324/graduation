@@ -1223,6 +1223,20 @@
         padding: 50px 6vw;
       }
     }
+
+    /* =========================================================
+       16. SCROLL SNAPPING
+       ========================================================= */
+    html {
+      scroll-snap-type: y mandatory;
+    }
+
+    .hero-section,
+    .section-container,
+    footer {
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
   </style>
 </head>
 
